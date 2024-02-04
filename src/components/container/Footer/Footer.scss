@@ -1,0 +1,67 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+
+    @media (max-width: 800px) {
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+      }
+      div{
+        align-content: center;
+      }
+    
+
+    .copyright {
+        margin: auto;
+        align-items: center ;
+        margin-bottom: 2rem;
+
+        p{
+            font-size: 1rem;
+
+            span {
+                color: #435abe;
+                font-weight: 600;
+                font-family: 'Kaushan Script';
+                font-size: 20px;
+
+
+            }
+        }
+    }
+    .followMe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin: auto;
+
+
+        h4 {
+            font-size: 1rem;
+        }
+        .stick {
+            height: 1px;
+            width: 2rem;
+            background: #070000;
+        }
+
+        .social_icons {
+            display: flex;
+            gap: 0.5rem;
+
+            svg {
+                opacity: 0.7;
+                cursor: pointer;
+                &:hover {
+                    opacity: 1;      
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,235 @@
+.social_iconss {
+  display: block;
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: 240px;
+  align-items: center;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  &.active {
+    background: rgba(252, 240, 240, 0.15);
+    backdrop-filter: blur(7px);
+  }
+}
+
+.Nav_container {
+  position: relative;
+  max-width: 1224px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: auto;
+
+  .logo {
+    width: 110px;
+    color: rgb(50, 83, 192);
+    text-decoration: none;
+    font-family: "Kaushan Script";
+    height: 50px;
+    border-radius: 50%;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    cursor: pointer;
+    &:hover {
+      opacity: 1;
+      color: #3a6bf3;
+      font-size: 27px;
+    }
+  }
+
+  .social_icons {
+    display: flex;
+    @media (max-width: 800px) {
+      display: none;
+    }
+    div {
+      margin-left: 1rem;
+
+      svg {
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        opacity: 0.7;
+        transition: 0.3s;
+        z-index: 2;
+
+        &:hover {
+          opacity: 1;
+          font-size: 27px;
+        }
+      }
+    }
+  }
+
+  .menu {
+    background: #ebe6e6;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    display: none;
+    margin-right: -3rem;
+    cursor: pointer;
+
+    @media (max-width: 800px) {
+      // display: block;
+      display: flex;
+    }
+
+    svg {
+      width: 100px;
+      height: 100px;
+      color: rgb(50, 83, 192);
+    }
+  }
+
+  .closeMenu {
+    background: linear-gradient(
+      90deg,
+      rgb(67, 151, 235) 51%,
+      rgb(152, 154, 154) 100%
+    );
+
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    border-radius: 50%;
+  }
+  .menuX {
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+    svg {
+      cursor: pointer;
+
+      width: 2rem;
+      height: 2rem;
+      position: absolute;
+      top: 4rem;
+      right: 3rem;
+      background-color: #cdd5de;
+      border-radius: 50%;
+    }
+    li {
+      list-style: none;
+      margin-top: 1rem;
+
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        opacity: 2;
+        transition: all 0.2s ease;
+        &:hover {
+          opacity: 3;
+          color: rgb(198, 246, 215);
+          font-size: 2.5rem;
+          text-decoration-line: underline;
+        }
+      }
+    }
+  }
+}
+
+// social icons menu XX
+.pp {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+//
+
+.nav_links {
+  display: flex;
+  list-style: none;
+
+  li {
+    margin-left: 2rem;
+    padding-top: 1rem;
+
+    @media (max-width: 800px) {
+      display: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(50, 83, 192);
+
+      font-weight: 600;
+      transition: 0.6s ease-in-out;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+      opacity: 1;
+    }
+  }
+}
+
+.pulse:hover,
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 1.8em transparent;
+  border-radius: 10%;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+$colors: (
+  pulse: rgb(137, 154, 210),
+);
+
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 45deg)};
+  }
+}
+
+.logohafsi {
+  display: flex;
+  @media (max-width: 800px) {
+    display: none;
+  }
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  &:hover {
+    transform: rotateZ(360deg);
+    transition: 0.7s ease-in-out;
+  }
+}
