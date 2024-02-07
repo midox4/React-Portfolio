@@ -73,20 +73,24 @@ export const experiences = [
   {
     id: 1,
     year: "2023",
-    position: "Back End Developer  🔬",
+    position: "Back-End Developer  🔬",
     company: "Tunisian Post",
   },
   {
     id: 2,
-    year: "2021",
-    position: "Front End Developer 💻",
+    year: "2019-2021",
+    position: "Front-End Developer 💻",
     text:"Tunisian Post",
     company: "Tunisian Post",
   },
   {
     id: 3,
-    year: "2019",
+    year: "2016-2019",
     position: "Intern Web Developer",
+    text:"I provided web solutions.
+applying a range of
+technologies to address
+client requirements.
     company: "TicApps-TBTI",
   },
 ];
