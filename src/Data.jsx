@@ -74,24 +74,22 @@ export const experiences = [
     id: 1,
     year: "2023",
     position: "Back-End Developer  🔬",
-    company: "Tunisian Post",
+    text:"Ensure the website performs correctly, focusing on databases,Write high-quality code ",
+    company: "Tunisian Post 🇹🇳",
   },
   {
     id: 2,
     year: "2019-2021",
     position: "Front-End Developer 💻",
-    text:"Tunisian Post",
-    company: "Tunisian Post",
+    text:"Optimizing the user experience, Developing and maintaining the user interface",
+    company: "Tunisian Post 🇹🇳",
   },
   {
     id: 3,
     year: "2016-2019",
     position: "Intern Web Developer",
-    text:"I provided web solutions.
-applying a range of
-technologies to address
-client requirements.
-    company: "TicApps-TBTI",
+    text:"I provided web solutions applying a range of technologies to address client requirements."
+    company: "TicApps-TBTI 🚀",
   },
 ];
 export const finishes = [
@@ -130,7 +128,6 @@ export const workImages = [
     id: 2,
     img: work2,
     key: "project2",
-
     name: "project 2",
     category: "web",
     git: "https://github.com/midox4",
