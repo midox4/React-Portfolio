@@ -72,7 +72,7 @@ export const bios = [
 export const experiences = [
   {
     id: 1,
-    year: "2023",
+    year: "2021-2024",
     position: "Back-End Developer  🔬",
     text:"Ensure the website performs correctly, focusing on databases,Write high-quality code ",
     company: "Tunisian Post 🇹🇳",
