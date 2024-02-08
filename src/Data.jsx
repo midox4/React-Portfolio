@@ -88,7 +88,7 @@ export const experiences = [
     id: 3,
     year: "2016-2019",
     position: "Intern Web Developer",
-    text:"I provided web solutions applying a range of technologies to address client requirements."
+    text:"I provided web solutions applying a range of technologies to address client requirements.",
     company: "TicApps-TBTI 🚀",
   },
 ];
