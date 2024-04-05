@@ -58,7 +58,7 @@ const Skills = () => {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ y: [-50, 0], opacity: 1 }}
-        className="finishes_container"
+        className="exper"
       >
         {active === 2 &&
           experiences.map((experience) => (
