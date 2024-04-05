@@ -40,7 +40,7 @@ const About = () => {
         >
 
           <p>
-            <h1>Full Stack <span className="devweb">Web Developer</span></h1>
+            <h1>Full Stack Web Developer</h1>
           &emsp;   
           `I am a dedicated and versatile <span className="devweb">Full Stack</span> <span className="wd"> Web Developer</span> 
             with a passion for creating 
