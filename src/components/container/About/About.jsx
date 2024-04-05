@@ -38,18 +38,18 @@ const About = () => {
           whileInView={{ x: [250, 0], opacity: 1 }}
           transition={{ duration: 1 }}
         >
-
+            
+          <h1>Full Stack Web Developer</h1>
           <p>
-            <h1>Full Stack Web Developer</h1>
           &emsp;   
-          `I am a dedicated and versatile <span className="devweb">Full Stack</span> <span className="wd"> Web Developer</span> 
-            with a passion for creating 
-            efficient and user-friendly web applications. With 3+ years of professional experience,
-            I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, and MongoDB.
-            My journey in web development began with a deep curiosity for how things work, and it has evolved into a 
-            career where I continuously strive to learn and adapt to new challenges.
-            I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.
-            Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`
+          `I am a dedicated and versatile <span className="devweb">Full Stack</span> <span className="wd"> Web Developer </span> 
+           with a passion for creating efficient and user-friendly web 
+            applications. With 3+ years of professional experience, I have expertise in various technologies, 
+            including React, Next.js, Node.js, MySQL, and MongoDB. My journey in web development began with a deep 
+            curiosity for how things work, and it has evolved into a career where I continuously strive to learn and
+            adapt to new challenges. I excel in collaborative environments and possess strong problem-solving skills
+            to deliver high-quality solutions. Beyond coding,
+            I am proactive in staying updated with new technologies and contributing to open-source projects`
 
           </p>
           {bios.map((bio) => {
