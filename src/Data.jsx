@@ -70,26 +70,45 @@ export const bios = [
 ];
 
 export const experiences = [
+                                                                                                                      
+
+         
+
+  
+
   {
     id: 1,
-    year: "2021-2024",
-    position: "Back-End Developer  🔬",
-    text:"Ensure the website performs correctly, focusing on databases,Write high-quality code ",
-    company: "Tunisian Post 🇹🇳",
+    year: "(02/2023 - Current)",
+    position: "Freelance Web Developer 💻",
+    text:"Designed company website including graphical user interface design utilizing ReactJs, 
+      TailwindCss and coding to meet my client’s needs and goals.",
+    company: " Freelances.tn 🇹🇳",
   },
+
   {
-    id: 2,
-    year: "2019-2021",
-    position: "Front-End Developer 💻",
-    text:"Optimizing the user experience, Developing and maintaining the user interface",
-    company: "Tunisian Post 🇹🇳",
+    id:2 ,
+    year: "(02/2020– 01/2023)",
+    position: "Intern Full Stack Developer 🔬",
+    text:" Designed and implemented scalable APIs and background workers for managing first- 
+      and third-party proprietary licenses using Nodejs, JavaScript, Typescript.  ",
+    company:"TicTac Company Software Development 🇹🇳",
   },
   {
     id: 3,
-    year: "2016-2019",
-    position: "Intern Web Developer",
-    text:"I provided web solutions applying a range of technologies to address client requirements.",
-    company: "TicApps-TBTI 🚀",
+    year: " (01/2018– Current) ",
+    position: "Agency Manager 👨‍💼",
+    text:"
+    Coordinate, manage and control the activity and follow-up of the sales force.
+    Translation of strategic axes into concrete business objectives.
+  ",
+    company: "Tunisian Post 🇹🇳",
+  },
+  {
+    id: 4,
+    year: " (01/2012 – 12/2017)",
+    position: " IT Technical Support 🛠",
+    text:"Diagnosing software or hardware faults and solving the issues over the phone or in person",
+    company: "Tunisian Post 🇹🇳",
   },
 ];
 export const finishes = [
