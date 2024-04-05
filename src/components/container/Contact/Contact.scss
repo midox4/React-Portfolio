@@ -1,117 +1,4 @@
-// .contact_form {
-//   display: grid;
-//   grid-template-columns: repeat(2, 1fr);
-//   background: #fff;
-//   padding: 2rem;
-//   border-radius: 15px;
-//   max-width: 1100px;
-//   margin-left: auto;
-//   margin-right: auto;
-//   gap: 2rem;
-//   overflow: hidden;
 
-//   @media screen and (max-width: 700px) {
-//     grid-template-columns: 1fr;
-//   }
-
-//   .contact_left_container {
-//     h3 {
-//       font-size: 1.5rem;
-//       margin-bottom: 1rem;
-//     }
-
-//     .contact_text .container {
-//       font-size: 0.85rem;
-//       margin-bottom: 1rem;
-//     }
-//     .contact_text {
-//       text-align: justify;
-//       text-justify: auto;
-//     }
-//     .contact_left {
-//       display: flex;
-//       align-items: center;
-//       margin-top: 1rem;
-//       text-align: justify;
-
-//       .icon {
-//         width: 50px;
-//         height: 50px;
-//         background: #0f7cc9;
-//         color: #fff;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         border-radius: 50%;
-//         margin-left: -1rem;
-//         margin-right: 1rem;
-//       }
-//       p {
-//         font-size: 1rem;
-//       }
-//     }
-//     .social_icons {
-//       display: flex;
-//       margin-top: 2rem;
-
-//       div {
-//         margin-right: 1rem;
-//         cursor: pointer;
-
-//         &:hover {
-//           opacity: 0.8;
-//         }
-
-//         svg {
-//           font-size: 1.3rem;
-//         }
-//       }
-//     }
-//   }
-//   .contact_right {
-//     h3 {
-//       font-size: 1.5rem;
-//       margin-bottom: 1rem;
-//     }
-//     .row {
-//       width: 100%;
-//       display: grid;
-//       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-//       gap: 0.5rem;
-
-//       input {
-//         border: none;
-//         outline: none;
-//         margin-bottom: 0.5rem;
-//         padding: 1rem 1.5rem;
-//         background: #f3f3f3;
-//         border-radius: 5px;
-//         font-size: 0.85rem;
-//       }
-//       textarea {
-//         border: none;
-//         outline: none;
-//         margin-bottom: 0.5rem;
-//         padding: 1rem 1.5rem;
-//         background: #f3f3f3;
-//         border-radius: 5px;
-//         resize: none;
-//         min-height: 150px;
-//         font-size: 0.85rem;
-//       }
-//     }
-
-
-//   }
-//   .button {
-//     display: flex;
-//     align-items: center;
-//     align-self: flex-end;
-
-//   }
- 
-
-// }
 
 .contact_form {
   display: grid;
@@ -229,7 +116,7 @@ background-color: rgb(112, 138, 239);
 .toast {
   @media only screen and (max-width: 767px) {
     /* For small screens (phones) */
-    width: 50%;
+    width: 40%;
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 16px;
