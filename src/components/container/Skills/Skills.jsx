@@ -1,28 +1,12 @@
-import { useState } from "react";
-import "./Skills.scss";
-import { Images } from "../../../Data";
-import { experiences } from "../../../Data";
-import { finishes } from "../../../Data";
+import  { useState } from "react";
+import { Images, experiences, finishes } from "../../../Data";
 import { motion } from "framer-motion";
 
-// import github from "../Skills/img/github.png";
-// import html from "../Skills/img/html.png";
-// import node from "../Skills/img/node.png";
-// import tailwind from "../Skills/img/tailwind.png";
-// import javascript from "../Skills/img/javascript.png";
-//import reactt from "../Skills/img/reactt.png";
-
-// const Skills = () => {
-// }
-
-// export default Skills
-
-// Define the Images array
-
-// Assuming you have an Image component to render individual images
+import "./Skills.scss";
 
 const Skills = () => {
   const [active, setActive] = useState(1);
+
   const Image = ({ img, name }) => {
     return (
       <div>
@@ -71,54 +55,40 @@ const Skills = () => {
             </div>
           ))}
       </motion.div>
-
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ y: [-50, 0], opacity: 1 }}
-        className="experiencs"
+        className="finishes_container"
       >
         {active === 2 &&
-          experiences.map((experience) => {
-            return (
-              <div className="experience" key={experience.id}>
-                <span>{experience.year}</span>
-                <div className="position">
-                  <h3>{experience.position}</h3>
-                  <p>{experience.company}</p>
-                  <p>{experience.text}</p>
-                </div>
+          experiences.map((experience) => (
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ y: [-50, 0], opacity: 1 }}
+              className="experience"
+              key={experience.id}
+            >
+              <span>{experience.year}</span>
+              <div className="position">
+                <h3>{experience.position}</h3>
+                <p>{experience.company}</p>
+                <p>{experience.text}</p>
               </div>
-            );
-          })}
+            </motion.div>
+          ))}
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ y: [-50, 0], opacity: 1 }}
         className="finishes_container"
       >
-        {finishes.map((finish) => {
-          return (
-            <div className="finishes" key={finish.id}>
-              <div className="number">{finish.number}</div>
-              <h4 className="item_name">{finish.itemName}</h4>
-            </div>
-          );
-        })}
+        {finishes.map((finish) => (
+          <div className="finishes" key={finish.id}>
+            <div className="number">{finish.number}</div>
+            <h4 className="item_name">{finish.itemName}</h4>
+          </div>
+        ))}
       </motion.div>
-      {/* <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ y: [-50, 0], opacity: 1 }}
-        className="skills"
-      >
-        <div>
-          {Images.map((image) => (
-            <div className="tools">
-              {" "}
-              <Image key={image.id} img={image.img} name={image.name} />
-            </div>
-          ))}
-        </div>
-      </motion.div> */}
     </div>
   );
 };
