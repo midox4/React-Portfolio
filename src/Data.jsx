@@ -97,10 +97,8 @@ export const experiences = [
     id: 3,
     year: " (01/2018– Current) ",
     position: "Agency Manager 👨‍💼",
-    text:"
-    Coordinate, manage and control the activity and follow-up of the sales force.
-    Translation of strategic axes into concrete business objectives.
-  ",
+    text:"Coordinate, manage and control the activity and follow-up of the sales force.
+    Translation of strategic axes into concrete business objectives.",
     company: "Tunisian Post 🇹🇳",
   },
   {
@@ -124,12 +122,12 @@ export const finishes = [
   },
   {
     id: 3,
-    number: "150+",
+    number: "50+",
     itemName: "Designed Items",
   },
   {
     id: 4,
-    number: "100+",
+    number: "20+",
     itemName: "Clients Served",
   },
 ];
