@@ -44,7 +44,7 @@ const About = () => {
           &emsp;   
           `I am a dedicated and versatile <span className="devweb">Full Stack</span> <span className="wd"> Web Developer</span> 
             with a passion for creating 
-            efficient and user-friendly web applications. With 2+ years of professional experience,
+            efficient and user-friendly web applications. With 3+ years of professional experience,
             I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, and MongoDB.
             My journey in web development began with a deep curiosity for how things work, and it has evolved into a 
             career where I continuously strive to learn and adapt to new challenges.
