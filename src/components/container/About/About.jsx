@@ -41,14 +41,16 @@ const About = () => {
 
           <p>
             <h1>Full Stack <span className="devweb">Web Developer</span></h1>
-            &emsp; I am a <span className="devweb">Full Stack</span> <span className="wd"> Web Developer</span> with 4+ years of experience. 
-            I have strong foundation in front-end & back-end development and am skilled
-            in creating user-friendly and responsive web applications using
-            React and its ecosystem. I am a strong communicator and team
-            player. I am always looking to improve my skills and
-            stay up-to-date with the latest best practices in web development. I
-            am excited to continue growing as a developer and making meaningful
-            contributions to projects and teams.
+          &emsp;   
+          `I am a dedicated and versatile <span className="devweb">Full Stack</span> <span className="wd"> Web Developer</span> 
+            with a passion for creating 
+            efficient and user-friendly web applications. With 2+ years of professional experience,
+            I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, and MongoDB.
+            My journey in web development began with a deep curiosity for how things work, and it has evolved into a 
+            career where I continuously strive to learn and adapt to new challenges.
+            I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.
+            Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`
+
           </p>
           {bios.map((bio) => {
             return (
