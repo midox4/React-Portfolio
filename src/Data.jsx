@@ -95,7 +95,7 @@ export const experiences = [
 export const finishes = [
   {
     id: 1,
-    number: "4+",
+    number: "3+",
     itemName: "Years Of Experience",
   },
   {
@@ -133,17 +133,9 @@ export const workImages = [
     git: "https://github.com/midox4",
     demo: "https://pandora-web.netlify.app/",
   },
+
   {
     id: 3,
-    img: work3,
-    key: "project3",
-
-    name: "project 3",
-    category: "web",
-    git: "https://github.com/midox4",
-  },
-  {
-    id: 4,
     img: work4,
     key: "project4",
 
@@ -152,7 +144,7 @@ export const workImages = [
     git: "https://github.com/midox4",
   },
   {
-    id: 5,
+    id: 4,
     img: work5,
     name: "project 5",
     key: "project5",
@@ -161,6 +153,15 @@ export const workImages = [
     git: "https://github.com/midox4",
   },
   {
+    id: 5,
+    img: work6,
+    key: "project6",
+
+    name: "project 6",
+    category: "design",
+    git: "https://github.com/midox4",
+  },
+    {
     id: 6,
     img: work6,
     key: "project6",
@@ -187,7 +188,7 @@ export const socialLink = [
   {
     id: 3,
     icon: <SlSocialLinkedin />,
-    link: "https://www.linkedin.com/in/hafsi-ahmed-91919460",
+    link: "https://www.linkedin.com/in/hafsiahmed",
   },
 ];
 
@@ -195,7 +196,7 @@ export const contacts = [
   {
     id: 1,
     icon: <FaMapMarkerAlt />,
-    infoText: "05 Road 20 March, Kairouan Tunisia",
+    infoText: "05 Street 20 March, Kairouan, Tunisia",
   },
   {
     id: 2,
