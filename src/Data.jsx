@@ -80,8 +80,7 @@ export const experiences = [
     id: 1,
     year: "(02/2023 - Current)",
     position: "Freelance Web Developer 💻",
-    text:"Designed company website including graphical user interface design utilizing ReactJs, 
-      TailwindCss and coding to meet my client’s needs and goals.",
+    text:"Designed company website including graphical user interface design utilizing ReactJs,TailwindCss and coding to meet my client’s needs and goals.",
     company: " Freelances.tn 🇹🇳",
   },
 
@@ -89,16 +88,14 @@ export const experiences = [
     id:2 ,
     year: "(02/2020– 01/2023)",
     position: "Intern Full Stack Developer 🔬",
-    text:" Designed and implemented scalable APIs and background workers for managing first- 
-      and third-party proprietary licenses using Nodejs, JavaScript, Typescript.  ",
+    text:" Designed and implemented scalable APIs and background workers for managing first and third-party proprietary licenses using Nodejs, JavaScript, Typescript.  ",
     company:"TicTac Company Software Development 🇹🇳",
   },
   {
     id: 3,
     year: " (01/2018– Current) ",
     position: "Agency Manager 👨‍💼",
-    text:"Coordinate, manage and control the activity and follow-up of the sales force.
-    Translation of strategic axes into concrete business objectives.",
+    text:"Coordinate, manage and control the activity and follow-up of the sales force. Translation of strategic axes into concrete business objectives.",
     company: "Tunisian Post 🇹🇳",
   },
   {
