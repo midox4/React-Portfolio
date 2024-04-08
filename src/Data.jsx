@@ -37,7 +37,7 @@ export const socialIcons = [
   <a href="https://github.com/midox4">
     <FaGithub size={30} />
   </a>,
-  <a href="https://www.linkedin.com/in/hafsi-ahmed-91919460">
+  <a href="https://www.linkedin.com/in/hafsiahmed">
     <FaLinkedin size={30} />
   </a>,
   <a href="https://www.facebook.com/geniouspo">
